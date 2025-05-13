@@ -1,0 +1,20 @@
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #5c2b6d; /* Dark purple */
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.nav-link {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: #d4a5ff; /* Light purple */
+    text-decoration: underline;
+}

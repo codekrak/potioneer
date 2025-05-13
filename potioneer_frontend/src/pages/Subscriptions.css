@@ -1,0 +1,77 @@
+/* General styling for the subscriptions page */
+.subscriptions-page {
+    padding: 2rem;
+    text-align: center;
+    color: white; /* Contrast text with dark background */
+}
+
+/* Header styling */
+.subscriptions-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffcc00; /* Golden color for emphasis */
+}
+
+.subscriptions-page p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Grid layout for subscription boxes */
+.subscriptions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+/* Individual subscription box */
+.subscription-box {
+    background: #5a2666; /* Subtle purple background for cards */
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for subscription box */
+.subscription-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Subscription box heading */
+.subscription-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #ffcc00;
+}
+
+/* Subscription description */
+.subscription-box p {
+    margin-bottom: 1rem;
+}
+
+/* Price text styling */
+.subscription-box .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Add to Cart button styling */
+.add-to-cart-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-button:hover {
+    background-color: #45a049;
+}
+
